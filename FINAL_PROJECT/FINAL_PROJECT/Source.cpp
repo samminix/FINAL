@@ -10,7 +10,7 @@
 #include <algorithm>
 using namespace std;
 
-void sortType(vector<Restaurant>&); //function to sort foods into files based on money amount
+//void sortType(vector<Restaurant>&); //function to sort foods into files based on money amount
 
 int main()
 {

@@ -12,7 +12,17 @@ Person::Person(string name, int money) //person constructor with parameters
 	Money = 20;
 }
 
-void choose_restaurant()
+void moneys(int x)
 {
+	cout << "How much money do you have to spend on lunch?? " << endl;
+	cin >> x;
 
+};
+
+void choose_restaurant(string ans)
+{
+	cout << "Would you rather eat at Jimmy Johns or Atilanos? " << endl;
+	cin >> ans;
+
+	//if ans ==
 };
