@@ -8,9 +8,9 @@ Restaurant::Restaurant() //default constructor
 	DessertPrice = 6; //default dessert price
 }
 
-Restaurant::Restaurant(string Name) //restaurant constructor with parameters
+Restaurant::Restaurant(string restaurantname) //restaurant constructor with parameters
 {
-	RestaurantName = Name; 
+	RestaurantName = restaurantname; 
 	SodaPrice = 2;
 	SidePrice = 3;
 	DessertPrice = 4;

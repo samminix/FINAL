@@ -1,0 +1,6 @@
+One Beef_Taco 4
+Two Chicken_Enchiladas 8
+Three Bean_and_Cheese_Burrito 3
+Four Nachos 5
+Five Steak_Fajita 7
+Six Chille_Rellenos 8

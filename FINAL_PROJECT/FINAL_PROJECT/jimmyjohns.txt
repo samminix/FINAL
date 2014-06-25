@@ -1,0 +1,6 @@
+Pepe Ham_and_Cheese_Sandwich 7
+Big_John  Roast_Beef_Sandwich 6
+Totally_Tuna Tuna_Sandwich 5
+Turkey_Tom Turkey_Sandwich 5
+Vito Salami_and_Cheese_Sandwich 7
+Veggie Cheese_and_Avocado_Sandwich 4

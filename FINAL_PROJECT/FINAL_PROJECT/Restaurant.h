@@ -8,6 +8,7 @@ using namespace std;
 class Restaurant
 {
 private:
+	int Food; // stores price of food
 	int SodaPrice; // stores price of soda
 	int SidePrice; // stores price of a side (eg chips)
 	int DessertPrice; // stores price of a dessert
@@ -20,6 +21,10 @@ public:
 	int get_SodaPrice(); // function to access how much soda costs
 	int get_SidePrice(); // function to access how much a side costs
 	int get_DessertPrice(); // function to access how much a dessert costs
+
+	Restaurant jimmyjohns();
+	Restaurant Atilanos(); 
+
 
 };
 
