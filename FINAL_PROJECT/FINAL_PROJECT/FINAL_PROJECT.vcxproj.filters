@@ -40,5 +40,20 @@
     <Text Include="Atilanos.txt">
       <Filter>Resource Files</Filter>
     </Text>
+    <Text Include="four.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="five.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="six.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="seven.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="eight.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
   </ItemGroup>
 </Project>

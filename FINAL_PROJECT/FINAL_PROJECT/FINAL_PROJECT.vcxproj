@@ -86,7 +86,12 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="Atilanos.txt" />
+    <Text Include="eight.txt" />
+    <Text Include="five.txt" />
+    <Text Include="four.txt" />
     <Text Include="jimmyjohns.txt" />
+    <Text Include="seven.txt" />
+    <Text Include="six.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

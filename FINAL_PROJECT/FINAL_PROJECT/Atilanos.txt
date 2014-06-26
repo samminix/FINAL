@@ -1,6 +1,12 @@
 One Beef_Taco 4
-Two Chicken_Enchiladas 8
-Three Bean_and_Cheese_Burrito 3
+Two Chicken_Enchiladas 9
+Three Bean_and_Cheese_Burrito 4
 Four Nachos 5
 Five Steak_Fajita 7
 Six Chille_Rellenos 8
+Seven Breakfast_Burrito 5
+Eight Chips_and_Guac 4
+Nine Toastados 6
+Ten Chicken_Tacos 6
+Eleven Cheese_Enchiladas 6
+Twelve Beef_Tacos 7
