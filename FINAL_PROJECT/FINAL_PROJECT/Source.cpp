@@ -19,16 +19,16 @@ int main()
 	string fooditem, foodtype;
 	int price;
 
-	fstream jimmyjohns("jimmyjohns.txt", ios::in);
+	fstream jimmyjohns("jimmyjohns.txt", ios::in); 
 
-	if (jimmyjohns.fail() )
+	if (jimmyjohns.fail() ) //chcecking if file works
 	{
 		cout << "Sorry no food for you... File failed" << endl;
 	}
 
 	fstream Atilanos("Atilanos.txt", ios::in);
 
-	if (Atilanos.fail() )
+	if (Atilanos.fail() ) //checking if file works
 	{
 		cout << "Sorry no food for you... File failed" << endl;
 	}
@@ -54,15 +54,19 @@ int main()
 
 	//way to display options when only having four dollars
 	string getcontent;
-	ifstream infile;
-	infile.open("four.txt");
-	while(getline(infile, getcontent) )
+	ifstream openfile ("four.txt");
+	while(getline(openfile, getcontent) )
 	{
 		cout << getcontent << endl;
 	}
-	infile.close();
+	//problem in that i figured out how to display the options for a specific txt file however i cant do the same thing for other files or there is a build error 
 
-	
+
+	Person p1("Samantha", 20);
+	p1.choose_restaurant();
+	p1.moneys();
+
+
 };
 
 void sortType(vector<Restaurant>& foods)
@@ -84,7 +88,7 @@ void sortType(vector<Restaurant>& foods)
 		{
 			four << item << " " << type << " " << price << endl; // write values into the four dollar text file
 		}
-		if (price >= 0 && price <= 5)
+		if (price >= 4 && price <= 5)
 		{
 			five << item << " " << type << " " << price << endl; // write values into the five dollar and under text file
 		}
@@ -100,7 +104,7 @@ void sortType(vector<Restaurant>& foods)
 		{
 			eight << item << " " << type << " " << price << endl; // write values into the eight dollar text file
 		}
-	}
+	} //problem in that it isnt adding all of the items into the lists so some of the options are being left out....
 
 four.close(); //closing fstream objects
 five.close();
