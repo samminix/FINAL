@@ -41,9 +41,28 @@ int main()
 	sort(foods.begin(), foods.end() ); //sort the values
 	sortType(foods); 
 
-	//ifstream fin;
-	//fin.open( "four.txt" );
 
+	while (Atilanos >> fooditem >> foodtype >> price)
+	{
+		Atilanos >> fooditem >> foodtype >> price;
+		foods.push_back( Restaurant(fooditem, foodtype, price) );
+	}
+	sort(foods.begin(), foods.end() ); //sort the values
+	sortType(foods); 
+
+
+
+	//way to display options when only having four dollars
+	string getcontent;
+	ifstream infile;
+	infile.open("four.txt");
+	while(getline(infile, getcontent) )
+	{
+		cout << getcontent << endl;
+	}
+	infile.close();
+
+	
 };
 
 void sortType(vector<Restaurant>& foods)
@@ -83,7 +102,7 @@ void sortType(vector<Restaurant>& foods)
 		}
 	}
 
-four.close();
+four.close(); //closing fstream objects
 five.close();
 six.close();
 seven.close();

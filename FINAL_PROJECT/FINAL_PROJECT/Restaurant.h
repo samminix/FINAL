@@ -25,7 +25,7 @@ public:
 	int get_SidePrice(); // function to access how much a side costs
 	int get_DessertPrice(); // function to access how much a dessert costs
 
-	Restaurant(string fooditem, string foodtype, int Price);
+	Restaurant(string fooditem, string foodtype, int Price); //constructor to help sort food items
 	string get_fooditem();
 	string get_foodtype();
 	int get_price();

@@ -23,6 +23,10 @@ void choose_restaurant(string ans)
 {
 	cout << "Would you rather eat at Jimmy Johns or Atilanos? " << endl;
 	cin >> ans;
-
-	//if ans ==
+	
+	/*if (ans == jimmyjohns)
+	{
+		
+	}
+	*/
 };
